@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
 	cout << "Enter search key: ";
 	cin >> key;
 	int res = binary_search(a, 0, n - 1, key);
-	if (res != -1)
+	if (res != -1)yg
 		cout << key << " found at index " << res << endl;
 	else
 		cout << key << " not found" << endl;
